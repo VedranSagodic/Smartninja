@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="16d95382-a1e7-4d52-a358-d5a6fadb932f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/BoogleSearch/.idea/BoogleSearch.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BoogleSearch/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BoogleSearch/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BoogleSearch/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BoogleSearch/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BoogleSearch/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BoogleSearch/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BoogleSearch/img/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BoogleSearch/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BoogleSearch/img/pp1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BoogleSearch/img/srcIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BoogleSearch/img/voiceIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BoogleSearch/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fakebook/css/img/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fakebook/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fakebook/img/pp1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fakebook/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoogleMail/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoogleMail/img/drive.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoogleMail/img/gmail.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoogleMail/img/icon1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoogleMail/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoogleMail/img/maps.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoogleMail/img/photos.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoogleMail/img/play.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoogleMail/img/pp1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoogleMail/img/search.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoogleMail/img/youtube.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoogleMail/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HairDresser/.idea/HairDresser.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HairDresser/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HairDresser/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HairDresser/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HairDresser/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HairDresser/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HairDresser/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HairDresser/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HairDresser/resources/img/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HairDresser/resources/img/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HairDresser/resources/img/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HairDresser/resources/img/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HairDresser/resources/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/python1/workWithFiles.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/python1/workWithFiles.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python1/FizzBuzz.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python1/elif primjer 3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python1/elif.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python1/for.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python1/konverter km-ml.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python1/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python1/while primjer2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python1/while.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Homework" />
+  </component>
+  <component name="ProjectId" id="1eADxe01yfIBUVWzOUwydE7zSj7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="16d95382-a1e7-4d52-a358-d5a6fadb932f" name="Default Changelist" comment="" />
+      <created>1593755751052</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593755751052</updated>
+    </task>
+    <servers />
+  </component>
+</project>
