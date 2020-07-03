@@ -1,0 +1,147 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    background-color: #fff;
+    color:#555;
+    overflow-x:hidden;
+    font-weight:40px;
+    font-size: 25px;
+}
+
+/* HEADER */
+
+header{
+    background-image: url(img/background.jpg);
+    background-size:cover;
+    background-position:center;
+    margin-top:0;
+    height:400px;
+}
+
+/* MAIN NAVIGATION */
+
+.mainNav{
+    list-style:none;
+    float:left;
+    margin-top:5px;
+    margin-left: 250px;
+}
+
+.mainNav li{
+    display: inline-block;
+    margin:5px auto;
+}
+
+.mainNav li a{
+    text-decoration: none;
+    color:#rgb(142, 140, 237);
+    text-align: center;
+    margin-left:15px;
+}
+
+/* SEARCH BOX */
+
+.searchBox{
+    margin-top: 5px;
+    margin-right: 250px;
+    display:inline-block;
+    width:500px;
+    height:50px;
+    float:right;
+
+}
+.box{
+    width: 300px;
+    height: 30px;
+}
+.btn{
+    width: 100px;
+    height:20px;
+}
+
+/* PROFILE PICTURE*/
+
+.picture{
+    width:200px;
+    height:200px;
+    text-align:center;
+    margin: 0px auto;
+}
+
+.picture img{
+    width:200px;
+    height:200px;
+    display:inline-block;
+    border: 5px solid;
+    border-radius:100px;
+    margin:250px auto;
+}
+
+h2{
+    margin: 320px auto;
+    margin-left: 800px;
+    color: #red;
+}
+
+/* FIRST SECTION*/
+
+.firstSec{
+    margin: 0 auto;
+    width:1400px;
+    height:200px;
+}
+
+/*SECTION BUTTONS*/
+
+.buttons{
+    height: 100px;
+    width: 500px;
+    margin: 250px auto;
+}
+
+.buttons li{
+    width: 60px;
+    height: 20px;
+    display: inline-block;
+    margin-left: 50px;
+}
+.buttons li a{
+    text-decoration:none;
+    font-size: 30px;
+    border: 1px solid;
+    border-radius: 30px;
+    border-color: #blue;
+    text-align:center;
+}
+
+.intro{
+    margin-left: 50px;
+    margin-bottom: 50px;
+    float: left;
+    border: 2px solid;
+    border-color: #000;
+}
+.posts{
+    margin-left: 20px;
+    margin-bottom: 50px;
+    margin-right: 20px;
+    float: right;
+    border: 2px solid;
+    border-color: #000;
+}
+
+p{
+    width: 700px;
+    text-align: center;
+}
+.footer{
+    margin-top: 800px;
+    margin-bottom: 20px;
+    border: 1px solid;
+    border-radius: 1px;
+}

@@ -1,0 +1,91 @@
+.mainBox{
+        margin: 0 auto;
+        width:1200px;
+        x-overflow: hidden;
+        background-color:#red;
+}
+.heading{
+        margin: 0 200px;
+        text-align: center;
+}
+.heading img{
+        width: 150px;
+        height: 50px;
+        padding: 30px;
+}
+h1,
+h3  {
+        color: rgb(162, 166, 162);
+        margin: 0 auto;
+}
+
+.form{
+        background-color: rgb(207, 208, 209);
+        margin: 80px 400px;
+        padding: 60px;
+        border: 1px solid rgb(162, 166, 162);
+        border-radius: 1px;
+
+}
+
+.form img{
+        height: 100px;
+        width:  100px;
+        border-radius: 100px;
+        margin: 20px 80px;
+}
+
+.contactForm{
+        margin: 20px auto;
+}
+
+.btn1{
+    background-color:rgb(255, 241, 84);
+    text-align:left;
+    border: 1px solid rgb(207, 208, 209);
+    border-radius: 2px;
+    margin: 0 10px;
+    padding: 0;
+    width: 250px;
+    height: 50px;
+    }
+.btn2{
+    background-color:rgb(62, 150, 201);
+    border: 1px solid rgb(207, 208, 209);
+    border-radius: 2px;
+    color: white;
+    margin-top: 2px;
+    margin: 5px 10px;
+    padding: 0;
+    width: 250px;
+    height: 50px;
+}
+.formHelp{
+        margin: 0 15px;
+        float: right;
+        color:rgb(45, 52, 237);
+}
+
+.footer{
+        margin: 0 auto;
+        text-align: center;
+}
+.footerLink{
+        text-decoration:none;
+        text-align: center;
+}
+.footerTxt{
+        margin: 20px auto;
+        underline:none;
+        text-align: center;
+}
+
+.container{
+        margin: 20px auto;
+}
+
+.container img{
+        width: 20px;
+        height: 20px;
+}
+
