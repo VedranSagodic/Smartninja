@@ -5,10 +5,10 @@ oci = {"plave" : "TTGTGGTGGC", "zelene" : "GGGAGGTGGC", "smeđe" : "AAGTAGTGAC"}
 spol = {"ženski" : "TGAAGGACCTTC", "muško" : "TGCAGGAACTTC"}
 rasa = {"bijela" : "AAAACCTCA", "crna" : "CGACTACAG", "azijska" : "CGCGGGCCG"}
 
-osobe = {"eva" : ["ženski", "bijela", "plava", "plave", "ovalna"],
-          "larisa" : ["ženski", "bijela", "smeđa", "smeđe", "ovalna"],
-          "matej" : ["muško", "bijela", "crna", "plava", "ovalna"],
-          "miha" : ["muško", "bijela", "smeđa", "zelene", "kockasto"]}
+osobe = {"eva": ["ženski", "bijela", "plava", "plave", "ovalna"],
+          "larisa": ["ženski", "bijela", "smeđa", "smeđe", "ovalna"],
+          "matej": ["muško", "bijela", "crna", "plava", "ovalna"],
+          "miha": ["muško", "bijela", "smeđa", "zelene", "kockasto"]}
 
 with open("dna.txt", "r") as dna_file:
     dna = dna_file.read()

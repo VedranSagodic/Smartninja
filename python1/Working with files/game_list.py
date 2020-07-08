@@ -11,8 +11,18 @@ with open("score_list.txt", "r") as score_file:
     score_list = json.loads(score_file.read())
     print("Top scores: " + str(score_list))
 
-for score_dict in score_list:
-    print("Player: " + str(score_dict["name"]) + str(score_dict["attempts"]) + " attempts, date: " + score_dict.get("date"))
+    new_score_list = sorted(score_list, key=lambda k: k['attempts'])[:3]
+
+    for score_dict in new_score_list:
+        score_text = "Player {0} had {1} attempts on {2}. The secret number was {3}. The wrong guesses were: {4}".format(
+            score_dict.get("name"),
+            str(score_dict.get("attempts")),
+            score_dict.get("date"),
+            score_dict.get("secret_number"),
+            score_dict.get("wrong_guesses"))
+        print(score_text)
+
+wrong_guesses = []
 
 while True:
     guess = int(input("Guess the secret number (between 1 and 30): "))
@@ -22,7 +32,7 @@ while True:
 
         name = input("Player name: ")
 
-        score_list.append({"name": name, "attempts": attempts, "date": str(datetime.datetime.now())})
+        score_list.append({"name": name, "attempts": attempts, "date": str(datetime.datetime.now()), "secret_number": secret, "wrong_guesses": wrong_guesses})
 
         with open("score_list.txt", "w") as score_file:
             score_file.write(json.dumps(score_list))
@@ -30,8 +40,12 @@ while True:
         print("You've guessed it - congratulations! It's number " + str(secret))
         print("Attempts needed: " + str(attempts))
         break
+        
     elif guess > secret:
         print("Your guess is not correct... try something smaller")
+
     elif guess < secret:
         print("Your guess is not correct... try something bigger")
+
+    wrong_guesses.append(guess)
 
