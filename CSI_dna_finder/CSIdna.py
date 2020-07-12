@@ -1,14 +1,16 @@
 # Pronađi dna osobe iz datoteke dna.txt
-kosa = {"crna" : "CCAGCAATCGC", "smeđa" : "GCCAGTGCCG", "plava" : "TTAGCTATCGC"}
-lice = {"kockasto" : "GCCACGG", "okrugla" : "ACCACAA", "ovalna" : "AGGCCTCA"}
-oci = {"plave" : "TTGTGGTGGC", "zelene" : "GGGAGGTGGC", "smeđe" : "AAGTAGTGAC"}
-spol = {"ženski" : "TGAAGGACCTTC", "muško" : "TGCAGGAACTTC"}
-rasa = {"bijela" : "AAAACCTCA", "crna" : "CGACTACAG", "azijska" : "CGCGGGCCG"}
+kosa = {"Crna" : "CCAGCAATCGC", "smeđa" : "GCCAGTGCCG", "plava" : "TTAGCTATCGC"}
+lice = {"Kockasto" : "GCCACGG", "okrugla" : "ACCACAA", "ovalna" : "AGGCCTCA"}
+oci = {"Plave" : "TTGTGGTGGC", "zelene" : "GGGAGGTGGC", "smeđe" : "AAGTAGTGAC"}
+spol = {"Ženski" : "TGAAGGACCTTC", "muško" : "TGCAGGAACTTC"}
+rasa = {"Bijela" : "AAAACCTCA", "crna" : "CGACTACAG", "azijska" : "CGCGGGCCG"}
 
 osobe = {"eva": ["ženski", "bijela", "plava", "plave", "ovalna"],
           "larisa": ["ženski", "bijela", "smeđa", "smeđe", "ovalna"],
           "matej": ["muško", "bijela", "crna", "plava", "ovalna"],
           "miha": ["muško", "bijela", "smeđa", "zelene", "kockasto"]}
+
+
 
 with open("dna.txt", "r") as dna_file:
     dna = dna_file.read()
