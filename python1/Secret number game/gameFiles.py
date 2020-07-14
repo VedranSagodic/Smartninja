@@ -4,7 +4,7 @@ import random
 secret = random.randint(1,30)
 attempts = 0
 
-with open("score.txt", "r") as score_file:
+with open("score_list.txt", "r") as score_file:
     best_score = int(score_file.read())
     print("Top score " + str(best_score))
 
@@ -15,7 +15,7 @@ while True:
     if guess == secret:
 
         if attempts < best_score:
-            with open("score.txt", "w") as score_file:
+            with open("score_list.txt", "w") as score_file:
                 score_file.write(str(attempts))
 
         print("Bravo! Trazeni broj je bio: " + str(secret))
